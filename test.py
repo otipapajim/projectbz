@@ -1,4 +1,5 @@
 #!C:\Users\Sigma\AppData\Local\Programs\Python\Python39\python.exe
+
 print("content-type: text/html\n\n" )
 print("<!DOCTYPE html>")
 print("<html lang='en'>")
@@ -77,11 +78,34 @@ print("</li>")
 
 print("</ul>")
 print("</div>")
+print("</div>")
+print("</div>")
+print("</div>")
+
+print("<div>")
+print("<p class='notecolor'> Enter Item SKU </p>")
+print("<div class='search-container'>")
+print("<form method = 'POST' id = 'searchform'>")
+print("<input type='text' id='search' minlength='19' maxlength='19' placeholder='Ex...PO667MP0DFGILNAFAMZ' class='search-input'>")
+print("<a href='#' class='search-btn'>")
+print("<i class='fa fa-search'></i>")
+print("</a>")
+print("</div>")
+print("<br>")
+print("<br>")
+print("<input type='submit' class = 'button' name='searchBtn' id='searchBtn' value='Search' />")
+print("</form")
+print("<br>")
+print("<br>")
+print("</div>")
+
+
+#scraper
 
 
 
 print("<script src='./vendor/jquery/jquery.min.js'></script>")
-print("<script src='./js/login.js'></script>")
+print("<script src='./js/initscraper.js'></script>")
 print("</body>")
 #End Body
 print("<html>")
